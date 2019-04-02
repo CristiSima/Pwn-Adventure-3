@@ -103,7 +103,10 @@ class Proxy():
         for i in range(self.CL):
             time.sleep(0.05)
             self.GS[i].STOP()
-P=Proxy("192.168.0.202",3333,4)
+
+#CHANGE ME!!!
+IP="0.0.0.0"#Server's IP
+P=Proxy(IP,3333,4)
 time.sleep(1)
 ON=True
 print("JOB Done")
